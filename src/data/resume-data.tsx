@@ -22,6 +22,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "胡成晔",
   location: "杭州融惠数据科技有限公司全栈研发",
+  locationLink:"https://www.zhipin.com/gongsi/78e60e736885b2163nB429W5FA~~.html",
   about:
     "懂点java，喜欢写页面的程序员。",
   summary:
