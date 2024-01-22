@@ -231,7 +231,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Destyler",
+      title: "destyler",
       techStack: [
         "TypeScript",
         "Vite",
