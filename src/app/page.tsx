@@ -137,7 +137,7 @@ export default function Page() {
                         <span className="font-semibold">{line.name}</span>
                         <span className="text-gray-500">{line.time}</span>
                         <br />
-                        {line.content}
+                        <div dangerouslySetInnerHTML={{ __html: line.content }} />
                       </li>
                     ))}
                   </ul>

@@ -64,24 +64,37 @@ export const RESUME_DATA = {
       end: "2024",
       description:[
         {
-          name: '衢州司法(Vue2.7+Java)',
+          name: '衢州司法( Vue2.7 + Java )',
           time:'2022年8月-2022年11月',
-          content: '在 衢州司法项目 中，根据客户的需求负责了视频庭审的模块，对接 腾讯云所提供的 API 完成了视频通话和语音翻译功能，可以实时存储当前视频数据，方便了客户在视频庭审时的便捷。'
+          content: '在 衢州司法项目 中，根据客户的需求负责了视频庭审的模块，对接 腾讯云所提供的 API 完成了视频通话和语音翻译功能，可以实时存储当前视频数据，方便了客户在视频庭审时的便捷。' + 
+          '<br /> ' + 
+          '基于 腾讯云 的视频模块的基础上，设计并开发出了视频模块，同时未雨绸缪的增加了插件系统，在后续的视频业务模块的变化中，加快了开发的速度，提高了交付规格。' + 
+          '<br />' + 
+          '在业务完成后增加了文档说明，给该模块的交接工作增加了便利。'
         },
         {
-          name: '模板产品(Vue+Java)',
+          name: '模板产品( Vue + Java )',
           time:'2022年11月-2023年1月',
-          content: '并且为公司建立了初步的敏捷开发的基础，设计和开发了前端PC模板，在 桐心办 政府项目中运用该模块，在最短的时间内开发出了令客户十分满意的产品。'
+          content: '并且为公司建立了初步的敏捷开发的基础，设计和开发了前端PC模板，在 桐心办 政府项目中运用该模块，在最短的时间内开发出了令客户十分满意的产品。' + 
+          '<br />' +
+          '根据小程序的一些特性，设计了一套另类的手机模板系统，可以直接在电脑端浏览手机页面，同时兼容更多不同尺寸的设备，减少了对于不同尺寸设备的调试工作，成为公司开发小程序的最佳实践。' + 
+          '<br />' +
+          '浏览地址：<a href="https://photo.elonehoo.me/">https://photo.elonehoo.me/</a>' + 
+          '<br />' +
+          '开源地址：<a href="https://github.com/elonehoo/photo-planner">https://github.com/elonehoo/photo-planner</a>'
         },
         {
-          name: '桐心办(Vue3.0+Java)',
+          name: '桐心办( Vue3.0 + Java )',
           time:'2023年1月-2023年10月',
-          content: '持续维护着桐庐的桐心办政府项目，负责了自动整理动态数据的整理和用户自定义动态数据的功能，创建了该模块的数据库创建和最终底层 API 的封装，并在后续封装成为独立的插件模块，提供给了相同业务的不同产品。'
+          content: '持续维护着桐庐的桐心办政府项目，负责了自动整理动态数据的整理和用户自定义动态数据的功能，创建了该模块的数据库创建和最终底层 API 的封装，并在后续封装成为独立的插件模块，提供给了相同业务的不同产品。' + 
+          '<br />' +
+          '面对错综复杂的大量且不规律的数据，设计了一套动态表格系统，可以根据用户的需求随意的修改表格类型、导出的excel类型，基于 原子化CSS 强大功能下，还可以任意用户修改显示的表格样式。' + 
+          '<br />'
         },
         {
-          name: '桐庐司法(Vue2.7+Java)',
-          time:'2023年0月-2024年1月',
-          content: '在 桐心办 项目结束后，归纳反省，对于手机端的模板进行了重构和重新设计，在 桐庐司法局项目 中使用，将开发时间缩短，且大大增强了扩展性。'
+          name: '桐庐司法( Vue2.7 + Java )',
+          time:'2023年11月-2024年1月',
+          content: '在大量的大屏数据页面中，为了方便用户对于数据的管理和修改，设计了一套全新的修改方式，在修改模式下，点击大屏元素可以直接修改对应数据。'
         }
       ]
         
@@ -215,6 +228,45 @@ export const RESUME_DATA = {
       link: {
         label: "docs",
         href: "https://cn.vitest.dev/",
+      },
+    },
+    {
+      title: "Destyler",
+      techStack: [
+        "TypeScript",
+        "Vite",
+        "Vue",
+        "Unstyler"
+      ],
+      description: "无样式的 Vue 组件库，适用于建造只属于自己的高质量的网络应用程序和设计系统。",
+      logo: ConsultlyLogo,
+      link: {
+        label: "docs",
+        href: "http://destyler-dev.vercel.app/",
+      },
+    },
+    {
+      title: "Demos",
+      techStack: [
+        "一些小动画"
+      ],
+      description: "请访问这个链接 https://elonehoo.me/demos",
+      logo: ConsultlyLogo,
+      link: {
+        label: "more",
+        href: "https://elonehoo.me/demos",
+      },
+    },
+    {
+      title: "More Projects",
+      techStack: [
+        "项目集合"
+      ],
+      description: "更多项目请访问这个链接 https://elonehoo.me/projects",
+      logo: ConsultlyLogo,
+      link: {
+        label: "more",
+        href: "https://elonehoo.me/projects",
       },
     },
   ],
