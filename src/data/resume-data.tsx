@@ -24,7 +24,7 @@ export const RESUME_DATA = {
   location: "杭州融惠数据科技有限公司全栈研发",
   locationLink:"https://www.zhipin.com/gongsi/78e60e736885b2163nB429W5FA~~.html",
   about:
-    "懂点java，喜欢写页面的程序员。",
+    "懂点 Java ，喜欢写页面的程序员。",
   summary:
     "我叫胡成晔，一个喜欢开源的程序员。 我真的很喜欢将我脑海中的想法变成现实，变成每个人都可以看到的实体。我也是一名开源爱好者和维护者。 <br/>我喜欢开源实现协作和知识共享的方式，我很高兴看到我的工作最终能回馈社区和行业。<br/>除了编程，我还喜欢玩游戏和阅读我完全不知道的领域中的书籍。",
   personalWebsiteUrl: "https://elonehoo.me",
@@ -101,21 +101,32 @@ export const RESUME_DATA = {
         {
           name: '小信助手( Electron + Vue + Java )',
           time:'2024年4月-至今',
-          content: '调用 百度AI 桌面应用。'
+          content: '快速开发了桌面应用, 支持完善的 linux 操作系统。可以快速的调用 electron 的下载功能。和快速的调用其他 app 的能力。'
         },
       ]
         
     },
   ],
   skills: [
+    "HTML",
+    "CSS",
+    "Markdown",
     "JavaScript",
     "TypeScript",
-    "React/Next.js",
-    "Vue/Nuxt",
-    "Java/Spring",
+    "Java",
     "Go",
-    "C#",
-    "Node.js",
+    "Python",
+    "Swift",
+    "Kotlin",
+    "Dart",
+    "Rust",
+    "Vue.js/Nuxt",
+    "React/Next",
+    "Spring/JavaFX",
+    "Flutter",
+    "Spring",
+    "Hono",
+    "Electron",
     "MongoDB",
     "Nginx",
     "MySQL",
@@ -129,17 +140,41 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "vue-hooks-form",
+      title: "Destyler",
+      techStack: [
+        "TypeScript",
+        "Vue",
+        "React",
+        "Preact",
+        "Svelte",
+        "Solid",
+        "Lit",
+        "Unstyler"
+      ],
+      description: "无样式的 Vue 组件库，适用于建造只属于自己的高质量的网络应用程序和设计系统。",
+      logo: ConsultlyLogo,
+      link: {
+        label: "docs",
+        href: "http://destyler.org/",
+      },
+    },
+    {
+      title: "Vitest",
       techStack: [
         "TypeScript",
         "Vite",
         "Vue",
+        "React",
+        "Preact",
+        "Svelte",
+        "Solid",
+        "Lit",
       ],
-      description: "用于验证表单的 Vue Composition API。",
+      description: "一个原生支持 Vite 的测试框架。非常快速！",
       logo: ConsultlyLogo,
       link: {
         label: "docs",
-        href: "https://form.elonehoo.me/",
+        href: "https://cn.vitest.dev/",
       },
     },
     {
@@ -219,37 +254,17 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Vitest",
+      title: "vue-hooks-form",
       techStack: [
         "TypeScript",
         "Vite",
         "Vue",
-        "React",
-        "Preact",
-        "Svelte",
-        "Solid",
-        "Lit",
       ],
-      description: "一个原生支持 Vite 的测试框架。非常快速！",
+      description: "用于验证表单的 Vue Composition API。",
       logo: ConsultlyLogo,
       link: {
-        label: "docs",
-        href: "https://cn.vitest.dev/",
-      },
-    },
-    {
-      title: "destyler",
-      techStack: [
-        "TypeScript",
-        "Vite",
-        "Vue",
-        "Unstyler"
-      ],
-      description: "无样式的 Vue 组件库，适用于建造只属于自己的高质量的网络应用程序和设计系统。",
-      logo: ConsultlyLogo,
-      link: {
-        label: "docs",
-        href: "http://destyler-dev.vercel.app/",
+        label: "github",
+        href: "https://github.com/vue-hooks-form/vue-hooks-form",
       },
     },
     {
